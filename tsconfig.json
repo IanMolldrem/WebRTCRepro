@@ -1,3 +1,7 @@
 {
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  // Uncomment to fix react-native-webrtc.
+  // "compilerOptions": {
+  //   "resolvePackageJsonExports": false,
+  // },
 }
